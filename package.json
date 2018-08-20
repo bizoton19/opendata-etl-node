@@ -1,0 +1,11 @@
+{
+  "name": "@bilomax/opendata-base-node",
+  "version": "1.0.0",
+  "description": "basemodule for open data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Salomn",
+  "license": "ISC"
+}
