@@ -1,11 +1,18 @@
 {
   "name": "@bilomax/opendata-base-node",
   "version": "1.0.0",
-  "description": "basemodule for open data",
-  "main": "index.js",
+  "description": "basemodule for open data sets",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "build": "tsc"
   },
   "author": "Alex Salomon",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "jest": "^23.5.0",
+    "ts-jest": "^23.1.4",
+    "typescript": "^3.0.3"
+  }
 }
